@@ -5,14 +5,14 @@ This repository evaluates two methods for estimating Root Zone Soil Moisture (RZ
 Cumulative Distribution Function (CDF) Method
 These methods were chosen due to their minimal dataset requirements, making them suitable for scenarios with limited data availability. Specifically, both methods can effectively operate with a time series dataset of just 5 years. The case study for this analysis is based on data from the Twente Soil Moisture Monitoring Stations.
 
-##Repository Structure
-*Methodology: Contains detailed descriptions and the theoretical background of both methods. Summarizes the design and approach used in the study.
-Code: Demonstrates the steps for applying both ELPF and CDF methods, including code examples and instructions for use.
+## Repository Structure
+* Methodology: Contains detailed descriptions and the theoretical background of both methods. Summarizes the design and approach used in the study.
+* Code: Demonstrates the steps for applying both ELPF and CDF methods, including code examples and instructions for use.
 Summary of Methods
-Exponential Low Pass Filter (ELPF)
+=> Exponential Low Pass Filter (ELPF)
 The ELPF method smooths the time series data to filter out high-frequency variations, providing a more stable estimation of RZSM.
 
-Cumulative Distribution Function (CDF) Method
+=> Cumulative Distribution Function (CDF) Method
 The CDF method transforms the soil moisture data to match a reference distribution, allowing for estimation of RZSM based on statistical properties.
 
 ## Evaluation and Results

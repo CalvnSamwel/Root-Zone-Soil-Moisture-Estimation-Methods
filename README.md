@@ -18,8 +18,10 @@ The CDF method transforms the soil moisture data to match a reference distributi
 ## Evaluation and Results
 The methods were evaluated using the following metrics:
 
-## Residual Measure (RMSE)
-Linear Correlation Coefficient
+* Residual Measure (RMSE)
+* Linear Correlation Coefficient (r)
+* Bias (b)
+* UnBiased Root Mean Square Error (UbRMSE)
 Results indicate that the sequential application of the CDF method followed by the ELPF method yielded the most accurate RZSM time series datasets. Among the two individual methods, ELPF significantly outperformed CDF.
 
 

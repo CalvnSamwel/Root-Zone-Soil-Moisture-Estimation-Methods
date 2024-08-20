@@ -1,4 +1,4 @@
-# Root-Zone-Estimation-Methods
+# Root-Zone Soil Moisture-Estimation-Methods
 This repository evaluates two methods for estimating Root Zone Soil Moisture (RZSM) from grid surface soil moisture time series data. The methods analyzed are:
 
 ## Exponential Low Pass Filter (ELPF)
